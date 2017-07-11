@@ -1,0 +1,5 @@
+[S]The most important and the most urgent task
+[A]Important and urgent task
+[B]Important task
+[C]General task
+[D]Low priority task[DEFAULT]
