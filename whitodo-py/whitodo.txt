@@ -3,3 +3,4 @@
 [B]Important task
 [C]General task
 [D]Low priority task[DEFAULT]
+[X]Hidden task

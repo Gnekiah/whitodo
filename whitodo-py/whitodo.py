@@ -88,6 +88,8 @@ def draw_watermark(imgcfg):
             texts.append((i[3:], cfont, ccolor))
         elif i[:3] == "[D]" or i[:3] == "[d]":
             texts.append((i[3:], dfont, dcolor))
+        elif i[:3] == "[X]" or i[:3] == "[x]":
+            pass
         else:
              texts.append((i, dfont, dcolor))
              
