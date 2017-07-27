@@ -28,5 +28,5 @@ def cycle(imgcfg):
     while True:
         update_wallpaper(__get_next(tgtimgs, imgcfg["random"], cnt))
         cnt += 1
-        time.sleep(int(imgcfg["switchtime"]) * 6)
+        time.sleep(int(imgcfg["switchtime"]) * 60)
 
