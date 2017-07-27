@@ -23,6 +23,8 @@ def __get_img(imgcfg):
 
 
 def bingindex(imgcfg):
+    if not path.isdir(imgcfg["downloaddir"]):
+        os.makedirs(imgcfg["downloaddir"])
     __get_img(imgcfg)
     if not imgcheck(imgcfg):
         prerr("Can not parse this images")

@@ -154,9 +154,7 @@ def load_config(CONFIG_PATH):
     if not path.isdir(imgcfg["tgtdir"]):
         os.makedirs(imgcfg["tgtdir"])
     if not path.isdir(imgcfg["cachedir"]):
-        os.makedirs(imgcfg["cachedir"])
-    if not path.isdir(imgcfg["downloaddir"]):
-        os.makedirs(imgcfg["downloaddir"])
+        os.makedirs(imgcfg["cachedir"]) 
     return imgcfg
 
 
