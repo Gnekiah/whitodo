@@ -1,1 +1,1 @@
-python whitodo.py
+pythonw whitodo.py
